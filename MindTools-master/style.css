@@ -13,7 +13,7 @@ Tags: light, white,blog,business,multipurpose,one page, single page, custom-colo
 ==================================================
 #BASIC TYPOGRAPHY
 #HEADER	
-#MENU   
+#MENU 
 #ABOUT
 #CALL TO ACTION
 #TEAM   
@@ -357,7 +357,7 @@ input[type=text], input[type=password] {
 
 }
 
-.button1 {
+button {
     background-color: #00d999;
     color: white;
     padding: 14px 20px;
@@ -365,15 +365,15 @@ input[type=text], input[type=password] {
     border: none;
     cursor: pointer;
 }
-.button1:hover {
+
+button:hover {
     opacity: 0.8;
 }
 
 .cancelbtn {
     width: auto;
     padding: 6px 14px;
-    background-color: #BFBDBD;
-    text-decoration-color: white;
+    background-color: grey;
     
 }
 .cancelbtn:hover,
