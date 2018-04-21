@@ -104,7 +104,50 @@
             <li><a href="#portfolio">PARTNERS</a></li>
             <!-- <li><a href="#pricing-table">PRICE </a></li>              -->
             <li><a href="#contact">CONTACT</a></li>
-            <li><a href="#from-blog">LOG-IN </a></li>     
+           <li>
+          
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate form-login" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+     
+    </div>
+
+    <div class="container">
+      <label for="uname" ><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw" ><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw"><a href="#">Forgot password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+            </li>   
           </ul>                            
         </div><!--/.nav-collapse -->
        <div class="search-area">
@@ -172,9 +215,9 @@
           <div class="about-area">
             <div class="row">
               <div class="col-md-5 col-sm-6 col-xs-12">
-                <div class="about-left wow fadeInLeft">
-                  <img src="assets/images/about-img.jpg" alt="img">
-                  <a class="introduction-btn" href="#">Introduction</a>
+                <div class=" wow fadeInLeft">
+                  <img src="assets/images/about.png" alt="img">
+<!--                  <a class="introduction-btn" href="#">Introduction</a>-->
                 </div>
               </div>
               <div class="col-md-7 col-sm-6 col-xs-12">
@@ -405,120 +448,104 @@
                <div id="mixit-container" class="portfolio-container">
                  <div class="single-portfolio mix branding">
                    <div class="single-item">
-                     <img src="assets/images/portfolio-img-small1.jpg" alt="img">
+                     <img src="assets/images/freshblood.png" alt="img">
                      <div class="single-item-content">
                         <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big1.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
+                          <a class="link-btn" href="https://freshblood.ro/" target="_blank"><i class="fa fa-link"></i></a>
                         </div>
                         <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
+                          <h4>Fresh Blood</h4>
                         </div>
                      </div>
                    </div>
                  </div>
                  <div class="single-portfolio mix design">
                    <div class="single-item">
-                     <img src="assets/images/portfolio-img-small2.jpg" alt="img">
+                     <img src="assets/images/trs.png" alt="img">
                      <div class="single-item-content">
                         <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big2.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
+                          <a class="link-btn" href="http://www.transylvania-college.ro/" target="_blank" ><i class="fa fa-link"></i></a>
                         </div>
                         <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
+                          <h4>Transylvania College</h4>
                         </div>
                      </div>
                    </div>
                  </div>
                  <div class="single-portfolio mix development">
                    <div class="single-item">
-                     <img src="assets/images/portfolio-img-small3.jpg" alt="img">
+                     <img src="assets/images/logo-prcj.png" alt="img">
                      <div class="single-item-content">
                         <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big3.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
+                          <a class="link-btn" href="http://www.primariaclujnapoca.ro/" target="_blank" ><i class="fa fa-link"></i></a>
                         </div>
                         <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
+                          <h4>Primaria Cluj</h4>
                         </div>
                      </div>
                    </div>
                  </div>
                  <div class="single-portfolio mix photography">
                    <div class="single-item">
-                     <img src="assets/images/portfolio-img-small4.jpg" alt="img">
+                     <img src="assets/images/cbc.png" alt="img">
                      <div class="single-item-content">
                         <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big4.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
+                          <a class="link-btn" href="https://cbcampus.ro/en/" target="_blank" ><i class="fa fa-link"></i></a>
                         </div>
                         <div class="portfolio-title">
                           <h4>Mobile application</h4>
-                          <span>UI Design</span>
                         </div>
                      </div>
                    </div>
                  </div>
                  <div class="single-portfolio mix photography">
                    <div class="single-item">
-                     <img src="assets/images/portfolio-img-small5.jpg" alt="img">
+                     <img src="assets/images/logo-brd.jpg" alt="img">
                      <div class="single-item-content">
                         <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big5.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
+                          <a class="link-btn" href="https://www.brd.ro/en" target="_blank" ><i class="fa fa-link"></i></a>
                         </div>
                         <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
+                          <h4>BRD</h4>
                         </div>
                      </div>
                    </div>
                  </div>
                  <div class="single-portfolio mix photography">
                    <div class="single-item">
-                     <img src="assets/images/portfolio-img-small6.jpg" alt="img">
+                     <img src="assets/images/siit.jpeg" alt="img">
                      <div class="single-item-content">
                         <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big6.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
+                          <a class="link-btn" href="https://scoalainformala.ro/" target="_blank" ><i class="fa fa-link"></i></a>
                         </div>
                         <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
+                          <h4>Scoala Informala de IT</h4>
                         </div>
                      </div>
                    </div>
                  </div>
                  <div class="single-portfolio mix photography">
                    <div class="single-item">
-                     <img src="assets/images/portfolio-img-small7.jpg" alt="img">
+                     <img src="assets/images/captainbean.png" alt="img">
                      <div class="single-item-content">
                         <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big7.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
+                          <a class="link-btn" href="http://captainbean.ro/" target="_blank" ><i class="fa fa-link"></i></a>
                         </div>
                         <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
+                          <h4>Captain Bean</h4>
                         </div>
                      </div>
                    </div>
                  </div>
                  <div class="single-portfolio mix photography">
                    <div class="single-item">
-                     <img src="assets/images/portfolio-img-small2.jpg" alt="img">
+                     <img src="assets/images/anfsr.jpg" alt="img">
                      <div class="single-item-content">
                         <div class="portfolio-social-icon">
-                          <a class="fancybox" data-fancybox-group="gallery" href="assets/images/portfolio-img-big2.jpg"><i class="fa fa-eye"></i></a>
-                          <a class="link-btn" href="#"><i class="fa fa-link"></i></a>
+                          <a class="link-btn" href="http://www.anfsr.ro/" target="_blank" ><i class="fa fa-link"></i></a>
                         </div>
                         <div class="portfolio-title">
-                          <h4>Mobile application</h4>
-                          <span>UI Design</span>
+                          <h4>ANFSR</h4>
                         </div>
                      </div>
                    </div>
@@ -619,11 +646,11 @@
             <h2>Contact with us</h2>
             <address class="single-address">
               <h4>Address:</h4>
-              <p>str. Bulgarilor, nr 5, Cluj Napoca, Cluj</p>
+              <p>5th Bulgarilor Street, Cluj Napoca 400627, Cluj Country, Romania</p>
             </address>
              <address class="single-address">
               <h4>Phone</h4>
-              <p>Phone Number: 0040745819193</p>
+              <p>Phone Number: (+40)745819193</p>
             </address>
              <address class="single-address">
               <h4>E-Mail</h4>
@@ -659,8 +686,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="footer-top-area">             
-                <a class="footer-logo" href="#"><img src="assets/images/logo.jpg" alt="Logo"></a>              
+            <div class="footer-top-area">          
               <div class="footer-social">
                 <a class="facebook" href="#"><span class="fa fa-facebook"></span></a>
                 <a class="twitter" href="#"><span class="fa fa-twitter"></span></a>
