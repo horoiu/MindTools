@@ -31,7 +31,6 @@ body {
     height: 50rem;
     width: 20%;
     border-radius: 20px;    
-
 }
 
 .aside ul {
@@ -53,23 +52,19 @@ body {
 .aside-heading {
     font-size: 2rem;
     padding-left: 3em;
-    /* padding-top: 1em; */
 }
-
 
 .content {
     background-color: #00d99877;
-    /* background-color: #62ecc386; */
     border-radius: 20px;
     float: right;
     margin: 2em 2em;
     margin-left: 0;
-
     width: 68%;
 }
 
 .event-item {
-    display: flex;
+   display: flex;
    border: 1px solid lightgrey;
    margin: 3em 1em;
    background-color: white;
@@ -87,7 +82,6 @@ body {
 .event-item-content {
     float: right;
 }
-
 	
 .event-item-content-heading {
     text-align: center;
@@ -103,16 +97,38 @@ body {
     font-size: 13px;
     background-color: rgb(226, 243, 226);
     border-radius: 10px;
-    /* color: black; */
     font-weight: 900;
 }
+
 .event-item-content-details p {
     margin-top: 10px;
 }
-
 
 .clearfix {
     content: "";
     display: table;
     clear: both;
+}
+
+.event-item-button,
+.event-item-button:link,
+.event-item-button:visited {
+    background-color: #00d99877;
+    border-radius: 10px;
+    float: right;
+    margin-right: 3em;
+    margin-bottom: 1em;
+    outline: none;
+    padding: 2px 8px;
+}
+
+.event-item-button:hover {
+    transform: translateX(1px) translateY(-2px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.4);
+}
+
+.event-item-button:active {
+    transform: translateX(0px) translateY(0px);
+    outline: none;
+    box-shadow: none;
 }
