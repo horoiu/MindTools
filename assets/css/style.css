@@ -26,7 +26,7 @@ body {
     margin: 2em 2em;
 
     height: 50rem;
-    width: 17em;
+    width: 20%;
     border-radius: 20px;    
 }
 
@@ -62,7 +62,7 @@ body {
     margin: 2em 2em;
     margin-left: 0;
 
-    width: 64em;
+    width: 68%;
 }
 
 .event-item {
