@@ -391,7 +391,7 @@ input[type=text], input[type=password] {
 
 span.psw {
     float: left;
-    padding-top: 14px;
+    padding-top: 5px;
 }
 
 .login-form-style {
