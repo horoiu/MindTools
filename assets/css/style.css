@@ -20,18 +20,14 @@ body {
 }
 
 .aside {
-    /* background-color: #1a9c753a; */
     background-color: #00d99877;
-
 
     float: left;
     margin: 2em 2em;
 
     height: 50rem;
-    width: 20em;
-    border-radius: 20px;
-    /* color: rgba(27, 25, 25, 0.774); */
-    
+    width: 17em;
+    border-radius: 20px;    
 }
 
 .aside ul {
@@ -52,7 +48,7 @@ body {
 
 .aside-heading {
     font-size: 2rem;
-    padding-left: 4em;
+    padding-left: 3em;
     /* padding-top: 1em; */
 }
 
