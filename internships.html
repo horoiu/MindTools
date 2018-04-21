@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Rex : Home</title>
+    <title>MindTools - Internships</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
     <!-- Font Awesome -->
@@ -69,8 +69,11 @@
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="#about">ABOUT</a></li> 
             <li><a href="#team">TEAM</a></li>                    
-            <li><a href="#service">SERVICE</a></li> 
+            <li><a href="#categories">CATEGORIES</a></li> 
+            <li><a href="#partners">PARTNERS</a></li> 
             <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#log-in">LOG-IN</a></li>
+
           </ul>                            
         </div><!--/.nav-collapse -->
        <div class="search-area">
@@ -84,22 +87,154 @@
   </section>
   <!-- End menu section -->
 
-
   <!-- Start Aside --> 
   <section class="aside">
-      <h1>Filter section</h1>
-      <span>Filter results by:</span>
-      <label for="local">Local: </label>
-      <input name="local" type="radio">
-      <label for="international">Local: </label>
-      <input name="international" type="radio">
+      <ul>
+            <h1>Filter section</h1>
+
+            <span class="aside-heading">Filter results by:</span>
+
+            <form action="">
+                <div class="form-group event-location">
+                    <span>By location:</span></br>
+                    <input type="radio" name="location" value="local">
+                    <label for="local">National events </label> </br>
+                    <input type="radio" name="location" value="international">
+                    <label for="international">International events </label></br>
+                </div>
+
+                <div class="form-group event-type">
+                    <span>By type:</span></br>
+                    <input type="radio" name="type" value="full">
+                    <label for="local">Full time </label> </br>
+                    <input type="radio" name="type" value="part">
+                    <label for="international">Part time </label>
+                </div>
+
+                <div class="form-group event-age">
+                    <span>By attendee age:</span></br>
+                    <select>
+                        <option>Below 16</option>
+                        <option>Below 18</option>
+                        <option>Below 24</option>
+                        <option>Below 30</option>
+                        <option>Above 30</option>
+                    </select>
+                </div>
+
+                <div class="form-group event-age">
+                        <span>By domain:</span></br>
+                        <select>
+                            <option>IT</option>
+                            <option>Research</option>
+                            <option>HR</option>
+                            <option>Marketing</option>
+                            <option>Sales</option>
+                        </select>
+                    </div>
+
+                <div class="form-group event-duration">
+                    <span>By duration:</span></br>
+                    <select>
+                        <option>Up to 2 weeks</option>
+                        <option>2 weeks to 1 month</option>
+                        <option>1 to 3 months</option>
+                        <option>Above 3 months</option>
+                        <option>3 months to 1 year</option>
+                    </select>
+                </div>
+
+            </form>            
+      </ul>
+      
 
   </section>
   <!-- End Aside -->
 
-
   <!-- Start Content Section --> 
-  <section class="content">Main Content Section</section>
+  <section class="content">
+      <ul>
+          <li class="event-item">
+              <div>
+                <img class="event-item-photo" src="assets/images/internship1.jpg" href="">
+              </div>
+
+              <span class="clearfix">&nbsp;</span>
+
+              <div class="event-item-content">
+                  <h3 class="event-item-content-heading">REACT with us</h3>
+                  <div class="event-item-content-details">
+                      <span>Location: Cluj</span>
+                      <span>Duration: 3 months</span>
+                      <span>Start date: June 12</span>
+                      <span>Domain: IT</span>
+                      <p>Our company offers a 3-month paid internship in IT and launch their career in technology. You will be involved in the design and development of functional and performance enhancements for our existing, large-scale, real estate products. All this while being mentored by our senior team members.
+                        </p>
+                  </div>
+              </div>    
+          </li>
+
+          <li class="event-item">
+            <div>
+                <img class="event-item-photo" src="assets/images/internship2.jpg" href="">
+            </div>
+
+            <span class="clearfix">&nbsp;</span>
+
+            <div class="event-item-content">
+                <h3 class="event-item-content-heading">Research Intern – Children’s National Medical Center</h3>
+                <div class="event-item-content-details">
+                    <span>Location: Timisoara</span>
+                    <span>Duration: 6 weeks</span>
+                    <span>Start date: May 10</span>
+                    <span>Domain: Research</span>
+                    <p>The Research Intern is an entry level clinical research position. The Intern will perform a variety of research, database and clerical duties of a routine and technical nature to support clinical trials and assist investigators to organize, gather and compile clinical research data.</p>
+                </div>
+            </div>
+                        
+          </li>
+
+          <li class="event-item">
+            <div>
+                <img class="event-item-photo" src="assets/images/internship3.jpg" href="">
+            </div>
+
+            <span class="clearfix">&nbsp;</span>
+
+            <div class="event-item-content">
+                <h3 class="event-item-content-heading">Intern in Sales / Marketing</h3>
+                <div class="event-item-content-details">
+                    <span>Location: Cluj</span>
+                    <span>Duration: 1 month</span>
+                    <span>Start date: June 28</span>
+                    <span>Domain: Marketing</span>
+                    <p>This position is responsible for assisting the Sales and Marketing team in the execution of our new lead generation strategy in conjunction with the recently launched Small Business Program for Connecticut and New Jersey. This role will help support the business through participation in our program of small business lead generation, qualification and conversion.</p>
+                </div>
+            </div>
+                        
+          </li>
+          
+          <li class="event-item">
+            <div>
+                <img class="event-item-photo" src="assets/images/internship4.jpg" href="">
+            </div>
+
+            <span class="clearfix">&nbsp;</span>
+
+            <div class="event-item-content">
+                <h3 class="event-item-content-heading">Internship Human Resources - Psychology</h3>
+                <div class="event-item-content-details">
+                    <span>Location: Brasov</span>
+                    <span>Duration: 2 months</span>
+                    <span>Start date: July 1st</span>
+                    <span>Domain: HR</span>
+                    <p>The incumbent is responsible for providing support in HR-related activities, the focus being in Recruitment and Employer Branding area. Additionally, the position holder will have the opportunity to gain knowledge on other HR processes.</p>
+                </div>
+            </div>
+          </li>
+
+      </ul>
+  </section>
   <!-- Content Section Aside -->
 
   <!-- Start Footer -->    
@@ -109,7 +244,6 @@
         <div class="row">
           <div class="col-md-12">
             <div class="footer-top-area">             
-                <a class="footer-logo" href="#"><img src="assets/images/logo.jpg" alt="Logo"></a>              
               <div class="footer-social">
                 <a class="facebook" href="#"><span class="fa fa-facebook"></span></a>
                 <a class="twitter" href="#"><span class="fa fa-twitter"></span></a>
@@ -124,7 +258,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>Designed by <a href="">Challange Accepted team no. 10</a></p>
+      <p>Designed by <a href="">MindTools</a></p>
     </div>
   </footer>
   <!-- End Footer -->
