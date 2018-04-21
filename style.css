@@ -1660,6 +1660,15 @@ span.psw {
 	height: 45px;
 	margin-bottom: 24px;
 }
+.form-group input[type = "text"] {
+	margin: 0px;
+}
+.form-group input[type = "password"]{
+	margin: 0px;
+}
+.form-group input[type = "email"] {
+	margin: 0px;
+}
 .contact-form .form-group textarea{
 	color: #e1e1e1;
 	background: transparent;
@@ -3088,6 +3097,7 @@ span.psw {
 	.popular-post-widget .media-body {
 	  text-align: center;	  
 	}
+}
 
 	
 }
