@@ -240,7 +240,8 @@ img{
 }
 
 .knowmore-btn:hover,
-.knowmore-btn:focus,
+.knowmore-btn:focus
+}
 input[type=text], input[type=password] {
     width: 100%;
     padding: 15px;
