@@ -31,6 +31,7 @@ body {
     height: 50rem;
     width: 20%;
     border-radius: 20px;    
+
 }
 
 .aside ul {
@@ -60,7 +61,6 @@ body {
     background-color: #00d99877;
     /* background-color: #62ecc386; */
     border-radius: 20px;
-
     float: right;
     margin: 2em 2em;
     margin-left: 0;
@@ -88,6 +88,7 @@ body {
     float: right;
 }
 
+	
 .event-item-content-heading {
     text-align: center;
 }
