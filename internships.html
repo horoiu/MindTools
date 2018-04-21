@@ -97,9 +97,9 @@
             <form action="">
                 <div class="form-group event-location">
                     <span>By location:</span></br>
-                    <input type="radio" name="location" value="local">
+                    <input type="radio" name="location" value="local" id="radio-national">
                     <label for="local">National events </label> </br>
-                    <input type="radio" name="location" value="international">
+                    <input type="radio" name="location" value="international" id="radio-international">
                     <label for="international">International events </label></br>
                 </div>
 
@@ -154,7 +154,8 @@
   <!-- Start Content Section --> 
   <section class="content">
       <ul>
-          <li class="event-item">
+
+          <li class="event-item" data-location="national">
               <div>
                 <img class="event-item-photo" src="assets/images/internship1.jpg" href="">
               </div>
@@ -174,7 +175,7 @@
               </div>    
           </li>
 
-          <li class="event-item">
+          <li class="event-item" data-location="national">
             <div>
                 <img class="event-item-photo" src="assets/images/internship2.jpg" href="">
             </div>
@@ -195,7 +196,7 @@
                         
           </li>
 
-          <li class="event-item">
+          <li class="event-item" data-location="national">
             <div>
                 <img class="event-item-photo" src="assets/images/internship3.jpg" href="">
             </div>
@@ -216,7 +217,7 @@
                         
           </li>
           
-          <li class="event-item">
+          <li class="event-item" data-location="national">
             <div>
                 <img class="event-item-photo" src="assets/images/internship4.jpg" href="">
             </div>
@@ -231,6 +232,27 @@
                     <span>Start date: July 1st</span>
                     <span>Domain: HR</span>
                     <p>The incumbent is responsible for providing support in HR-related activities, the focus being in Recruitment and Employer Branding area. Additionally, the position holder will have the opportunity to gain knowledge on other HR processes.</p>
+                    <button class="event-item-button">Apply</button>
+                </div>
+            </div>
+          </li>
+
+          <li class="event-item" data-location="international">
+            <div>
+                <img class="event-item-photo" src="assets/images/portfolio-img-small3.jpg" href="">
+            </div>
+
+            <span class="clearfix">&nbsp;</span>
+
+            <div class="event-item-content">
+                <h3 class="event-item-content-heading">Internship/Design of a HMI Cockpit</h3>
+                <div class="event-item-content-details">
+                    <span>Location: London</span>
+                    <span>Duration: 6 months</span>
+                    <span>Start date: August 1st</span>
+                    <span>Domain: HR</span>
+                    <p>The objective of this internship is to define a design method for an ARINC 661 application.
+                    You will be in charge of studying, more specifically the design of synoptic and virtual control panels linked to the system parameters of a helicopter.</p>
                     <button class="event-item-button">Apply</button>
                 </div>
             </div>
@@ -288,6 +310,7 @@
 
   <!-- Custom js -->
   <script type="text/javascript" src="assets/js/custom.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
     
   </body>
 </html>
