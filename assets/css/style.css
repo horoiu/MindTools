@@ -1,0 +1,30 @@
+body {
+    background-color: lightgrey;
+}
+
+.aside {
+    background-color: rgb(245, 185, 205);
+    
+    position: relative;
+    top: 10em;
+    height: 30rem;
+    width: 20em;
+    
+}
+
+.aside > h1 {
+    display: none;
+}
+
+.content {
+    background-color: rgb(165, 192, 247);
+
+    position: relative;
+    top: -10em;
+    left: 25em;
+    height: 30rem;
+    
+}
+
+
+
