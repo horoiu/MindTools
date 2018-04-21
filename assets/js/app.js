@@ -1,18 +1,33 @@
-// console.log('JS Loaded');
-
-
-var radioNational = document.getElementById("radio-national");
-var radioInternational = document.getElementById("radio-international");
-
-radioNational.addEventListener('OnRadioStateChange', national);
-radioInternational.addEventListener('OnRadioStateChange', international);
+// filtering internships selection
+let eventItems = document.querySelectorAll('.event-item');
 
 function national() {
-    alert ("The " + radio.value + " radio is selected.");
-    console.log('clicked national');
+    eventItems.forEach(item => {
+        if (item.hasAttribute('data-international')) {
+            item.classList.add('hidden');            
+        } else {
+            item.classList.remove('hidden');  
+        }
+    });
 };
 
 function international() {
-    alert ("The " + radio.value + " radio is selected.");
-    console.log('clicked international');
-}
+    eventItems.forEach(item => {
+        if (item.hasAttribute('data-national')) {
+            item.classList.add('hidden');
+        } else {
+            item.classList.remove('hidden');
+        }
+    });
+};
+
+
+// open new page on click 'apply' buttons
+let applyBtn = document.querySelectorAll('.event-item-button');
+
+applyBtn.forEach(item => addEventListener('click', function(){
+    window.open('tobecontinued.html', '_blank');
+    })
+)
+
+

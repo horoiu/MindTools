@@ -97,9 +97,9 @@
             <form action="">
                 <div class="form-group event-location">
                     <span>By location:</span></br>
-                    <input type="radio" name="location" value="local" id="radio-national">
+                    <input type="radio" name="location" value="local" id="radio-national" onclick="national(this);">
                     <label for="local">National events </label> </br>
-                    <input type="radio" name="location" value="international" id="radio-international">
+                    <input type="radio" name="location" value="international" id="radio-international" onclick="international(this);">
                     <label for="international">International events </label></br>
                 </div>
 
@@ -155,7 +155,7 @@
   <section class="content">
       <ul>
 
-          <li class="event-item" data-location="national">
+          <li class="event-item" data-national="national">
               <div>
                 <img class="event-item-photo" src="assets/images/internship1.jpg" href="">
               </div>
@@ -170,12 +170,12 @@
                       <span>Start date: June 12</span>
                       <span>Domain: IT</span>
                       <p>Our company offers a 3-month paid internship in IT and launch their career in technology. You will be involved in the design and development of functional and performance enhancements for our existing, large-scale, real estate products. All this while being mentored by our senior team members.</p>
-                      <button class="event-item-button">Apply</button>
+                      <button class="event-item-button"> Apply</button>
                   </div>
               </div>    
           </li>
 
-          <li class="event-item" data-location="national">
+          <li class="event-item" data-national="national">
             <div>
                 <img class="event-item-photo" src="assets/images/internship2.jpg" href="">
             </div>
@@ -196,7 +196,7 @@
                         
           </li>
 
-          <li class="event-item" data-location="national">
+          <li class="event-item" data-national="national">
             <div>
                 <img class="event-item-photo" src="assets/images/internship3.jpg" href="">
             </div>
@@ -217,7 +217,7 @@
                         
           </li>
           
-          <li class="event-item" data-location="national">
+          <li class="event-item" data-national="national">
             <div>
                 <img class="event-item-photo" src="assets/images/internship4.jpg" href="">
             </div>
@@ -237,7 +237,7 @@
             </div>
           </li>
 
-          <li class="event-item" data-location="international">
+          <li class="event-item" data-international="international">
             <div>
                 <img class="event-item-photo" src="assets/images/portfolio-img-small3.jpg" href="">
             </div>
@@ -270,12 +270,9 @@
           <div class="col-md-12">
             <div class="footer-top-area">             
               <div class="footer-social">
-                  <a class="facebook" href="https://www.facebook.com/mindtools.eu/" target="_blank"><span class="fa fa-facebook"></span></a>
+                <a class="facebook" href="https://www.facebook.com/mindtools.eu/" target="_blank"><span class="fa fa-facebook"></span></a>
                 <a class="twitter" href="#"><span class="fa fa-twitter"></span></a>
-                <a class="google-plus" href="#"><span class="fa fa-google-plus"></span></a>
                 <a class="youtube" href="#"><span class="fa fa-youtube"></span></a>
-                <a class="linkedin" href="#"><span class="fa fa-linkedin"></span></a>
-                <a class="dribbble" href="#"><span class="fa fa-dribbble"></span></a>
               </div>
             </div>
           </div>

@@ -132,3 +132,11 @@ body {
     outline: none;
     box-shadow: none;
 }
+
+.to-be-continued {
+    background-color: #00d99877;
+    font-size: 5em;
+    font-weight: 600;
+    text-align: center;
+
+}
