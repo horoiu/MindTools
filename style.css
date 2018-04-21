@@ -360,7 +360,7 @@ input[type=text], input[type=password] {
 .button1 {
     background-color: #00d999;
     color: white;
-    padding: 14px 20px;
+    padding: 12px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
@@ -370,15 +370,16 @@ input[type=text], input[type=password] {
 }
 
 .cancelbtn {
+    background-color: #FF3F3F;
+    color: white;
     width: auto;
-    padding: 6px 14px;
-    background-color: #BFBDBD;
-    text-decoration-color: white;
-    
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
 }
 .cancelbtn:hover,
 .cancelbtn:focus {
-    background-color: red;
+    background-color: #FF6A6A;
     cursor: pointer;
 }
 
@@ -389,14 +390,14 @@ input[type=text], input[type=password] {
 }
 
 span.psw {
-    float: right;
+    float: left;
     padding-top: 14px;
 }
 
-.modal {
+.login-form-style {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1000#; /* Sit on top */
+    z-index: 1000; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -407,12 +408,12 @@ span.psw {
     padding-top: 60px;
 }
 
-.modal-content {
+.login-form-style-content {
 
     background-color: #fefefe;
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 30%; /* Could be more or less, depending on screen size */
 }
 
 .close {
