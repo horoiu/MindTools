@@ -95,7 +95,7 @@ body {
 
 .event-item-content-details span {
     padding: 0 8px;
-    margin-right: 1em;
+    margin-right: .5em;
     font-size: 13px;
     background-color: rgb(226, 243, 226);
     border-radius: 10px;
