@@ -198,6 +198,12 @@ Author URI : http://www.markups.io/
   border-color:#00d999;
 }
 
+.error {
+  color: red;
+}
+input.error {
+  border: solid 1px red !important;
+}
 /*=======================================
 Template Design By MarkUps.
 Author URI : http://www.markups.io/
