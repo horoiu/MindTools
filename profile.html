@@ -50,77 +50,81 @@
           <div class="contact-right wow fadeInRight">
             <h2>Edit profile </h2>
 			
-            <form id="contactForm" class="contact-form" onsubmit="return false;">
-			<div class="contact-form-profile">
-              <div class="form-group">                
-                <input type="text" id="cname" class="form-control" placeholder="First Name..." required>
-              </div>
-			  <div class="form-group">                
-                <input type="text" id="lname" class="form-control" placeholder="Last Name..." required>
-              </div>
-              <div class="form-group">                
-                <input type="email" id="cemail" class="form-control" placeholder="Your Email..." required>
-              </div>
-			<div class="form-group">                
-                <input type="password" id="password" class="form-control" placeholder="Your Password..." required>
-              </div>
-			  <div class="single-address" >                
-                <h3>Occupation</h3>
-					<input type="radio" id="radioButton" name="scolar" value="Scholar" checked>Scholar </br>
-					<input type="radio" id="radioButton" name="student" value="Student">Student </br>
-					<input type="radio" id="radioButton" name="employee" value="Scholar">Employee </br>
-					<input type="radio" id="radioButton" name="freelancer" value="Freelancer">Freelancer </br>
-					<input id="other" type="text" placeholder="Other...">
-              </div>
-			  </div>
-			  <div class="contact-form-profile">
-				  <div class="form-group">                
-					<input id="country" type="text" class="form-control" placeholder="Your country..." required>
-				  </div>
-				  <div class="form-group">                
-					<input type="text" id="cname" class="form-control" placeholder="Your City..." required>
-				  </div>
-				  <div class="form-group">                
-					<input id="country" type="text" class="form-control" placeholder="Your Age..." required>
-				  </div>
-				  <div class="form-group">                
-					<input type="text" id="cemail" class="form-control" placeholder="Your phone number..." required>
-				  </div> 
-				<div class="single-address" > 
-					<h3>Interests</h3>
-				<div>
-					<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
-					<label for="subscribeNews">Volunteering</label>
+            <form id="contactForm" class="contact-form " onsubmit="return false;">
+				<div class="contact-form-profile">
+					<div class="form-group">                
+						<input type="text" id="cname" class="form-control form-detail-input" placeholder="First Name..." required>
+					</div>
+					<div class="form-group">                
+						<input type="text" id="lname" class="form-control form-detail-input" placeholder="Last Name..." required>
+					</div>
+					<div class="form-group">                
+						<input type="email" id="cemail" class="form-control form-detail-input" placeholder="Your Email..." required>
+					</div>
+					<div class="form-group">                
+						<input type="password" id="password" class="form-control form-detail-input" placeholder="Your Password..." required>
+					</div>
+					<div class="single-address" >                
+						<h3>Occupation</h3>
+							<div class="col-md-8">
+								<input type="radio" id="radioButton" name="selection" value="Scholar" checked>Scholar </br>
+								<input type="radio" id="radioButton" name="selection" value="Student">Student </br>
+								<input type="radio" id="radioButton" name="selection" value="Scholar">Employee </br>
+								<input type="radio" id="radioButton" name="selection" value="Freelancer">Freelancer </br>
+								<input id="other" type="text" placeholder="Other...">
+							</div>
+					</div>
 				</div>
-				<div>
-					<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
-					<label for="subscribeNews">Internship</label>
-				</div>
-				<div>
-					<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
-					<label for="subscribeNews">Mentoring</label>
-				</div>
-				<div>
-					<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
-					<label for="subscribeNews">Career education</label>
-				</div>
-				<div>
-					<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
-					<label for="subscribeNews">Entrepreneur</label>
-				</div>
-				<div>
-					<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
-					<label for="subscribeNews">Sport</label>
-				</div>
-				<div>
-					<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
-					<label for="subscribeNews">Art/Science</label>
-				</div>
-				<div>
-					<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
-					<label for="subscribeNews">Therapies</label>
-				</div>
-				</div>
+				<div class="contact-form-profile">
+					<div class="form-group">                
+						<input id="country" type="text" class="form-control form-detail-input" placeholder="Your country..." required>
+					</div>
+					<div class="form-group">                
+						<input type="text" id="city" class="form-control form-detail-input" placeholder="Your City..." required>
+					</div>
+					<div class="form-group">                
+						<input id="age" type="text" class="form-control form-detail-input" placeholder="Your Age..." required>
+					</div>
+					<div class="form-group">                
+						<input type="text" id="phone" class="form-control form-detail-input" placeholder="Your phone number..." required>
+					</div> 
+					<div class="single-address" > 
+						<h3>Interests</h3>
+							<div class="col-md-8">
+								<div>
+									<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
+									<label for="subscribeNews">Volunteering</label>
+								</div>
+								<div>
+									<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
+									<label for="subscribeNews">Internship</label>
+								</div>
+								<div>
+									<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
+									<label for="subscribeNews">Mentoring</label>
+								</div>
+								<div>
+									<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
+									<label for="subscribeNews">Career education</label>
+								</div>
+								<div>
+									<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
+									<label for="subscribeNews">Entrepreneur</label>
+								</div>
+								<div>
+									<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
+									<label for="subscribeNews">Sport</label>
+								</div>
+								<div>
+									<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
+									<label for="subscribeNews">Art/Science</label>
+								</div>
+								<div>
+									<input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
+									<label for="subscribeNews">Therapies</label>
+								</div>
+							</div>
+					</div>
 				</div> 
               <button type="submit" data-text="SUBMIT" class="button button-default"><span>SUBMIT</span></button>
             </form>
@@ -130,62 +134,9 @@
       </div>
     </div>
   </section>
-  <!-- End Contact section -->
   
   
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-			<article>
-				<h3>Profile Edit</h3>
-				<form id="registerForm" action="" method="post">
-					<span>First Name</span>
-					<div>
-						<input id="nume" type="text" name="Nume" placeholder="Your first name..." />
-					</div>
-					<span>Last Name</span>
-					<div>
-						<input id="prenume" type="text" name="Prenume" placeholder="Your last name..." />
-					</div>
-					<span>E-mail</span>
-					<div>
-						<input id="email" type="text" name="Email" placeholder="Your email address..." />
-					</div>
-					<span>Password</span>
-					<div>
-						<input id="password" type="password" name="password" placeholder="Your password..." />
-					</div>
-					<span>Country</span>
-					<div>
-						<input id="country" type="text" name="Country" placeholder="Your country..." />
-					</div>
-					<span>City</span>
-					<div>
-						<input id="city" type="text" name="City" placeholder="Your city..." />
-					</div>
-					<span>Age</span>
-					<div>
-						<input id="age" type="text" name="Age" placeholder="Your age..." />
-					</div>
-					<span>Phone number</span>
-					<div>
-						<input id="phone" type="text" name="Phone" placeholder="Your phone number..." />
-					</div>
-					<span>Occupation</span>
-					<div class="col-md-12">
-						<input type="radio" id="radioButton" name="scolar" value="Scholar" checked>Scholar </br>
-						<input type="radio" id="radioButton" name="student" value="Student">Student </br>
-						<input type="radio" id="radioButton" name="employee" value="Scholar">Employee </br>
-						<input type="radio" id="radioButton" name="freelancer" value="Freelancer">Freelancer </br>
-						<input id "other" type="text" placeholder="Other...">
-					</div>
-					
-					
-				</form>
-				
-			</article>
-			</div>
-		</div>	
-	</div>
+  
+
   </body>
 </html>

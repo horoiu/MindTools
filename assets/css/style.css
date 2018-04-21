@@ -14,8 +14,11 @@ body {
     margin-bottom: 5px;
 }
 
+
+
 #other{
-	background: black;
+	border-radius: 8px;
+	background: lightgrey;
 	opacity: 80%;
 }
 
