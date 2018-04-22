@@ -28,7 +28,7 @@ body {
     float: left;
     margin: 2em 2em;
 
-    height: 50rem;
+    height: 52rem;
     width: 20%;
     border-radius: 20px;    
 }
@@ -138,5 +138,23 @@ body {
     font-size: 5em;
     font-weight: 600;
     text-align: center;
+}
 
+.reset-filter-btn {
+    border-radius: 10px;
+    margin-left: 2em;
+    margin-top: .5em;
+    outline: none;
+    padding: 2px 8px;
+}
+
+.reset-filter-btn:hover {
+    transform: translateX(1px) translateY(-2px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.4);
+}
+
+.reset-filter-btn:active {
+    transform: translateX(0px) translateY(0px);
+    outline: none;
+    box-shadow: none;
 }

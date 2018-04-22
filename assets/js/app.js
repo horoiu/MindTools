@@ -114,7 +114,7 @@ function international() {
 // open new page on click 'apply' buttons
 
 function openPage() {
-    window.open('tobecontinued.html', '_blank');
+    window.open('tobecontinued.html', '_blank');w
 };
 
 //     let applyBtn = document.querySelectorAll('.event-item-button');

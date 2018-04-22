@@ -67,13 +67,50 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav main-nav menu-scroll">
             <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="#about">ABOUT</a></li> 
-            <li><a href="#team">TEAM</a></li>                    
-            <li><a href="#categories">CATEGORIES</a></li> 
-            <li><a href="#partners">PARTNERS</a></li> 
-            <li><a href="#contact">CONTACT</a></li>
-            <li><a href="#log-in">LOG-IN</a></li>
+            <li><a href="index.html#about">ABOUT</a></li> 
+            <li><a href="index.html#team">TEAM</a></li>                    
+            <li><a href="index.html#service">OPPORTUNITIES</a></li> 
+            <li><a href="index.html#portfolio">PARTNERS</a></li> 
+            <li><a href="index.html#contact">CONTACT</a></li>
+            <li><button class="button1" onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button></li>
 
+<div id="login-form" class="login-form-style">
+  
+  <form class="login-form-style-content animate form-login" action="profile.html">
+
+    <div class="container">
+      <label for="uname" ><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw" ><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="button" onclick="document.getElementById('login-form').style.display='none'" class="cancelbtn">Cancel</button>
+      <button class="button1" type="submit">Login</button>
+
+      <label style="display: block;">
+      <input type="checkbox" checked="checked" name="remember">
+
+      Remember me</label>
+      
+      <span class="psw"><a style="padding: 0; text-transform: none;" href="#">Forgot password?</a></span>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('login-form');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
           </ul>                            
         </div><!--/.nav-collapse -->
        <div class="search-area">
@@ -145,6 +182,8 @@
                     </select>
                 </div>
 
+                <button class="reset-filter-btn">Reset filters</button>
+
             </form>            
       </ul>
       
@@ -172,7 +211,7 @@
                       <span>Start date: June 12</span>
                       <span>Domain: Community</span>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quia. Adipisci nisi repudiandae facere cumque illo, nulla consequatur quasi quod. Impedit asperiores vel ducimus fuga aliquam reprehenderit alias non porro sunt libero! Culpa fuga iusto perferendis ab consequuntur exercitationem id accusantium mollitia est.</p>
-                      <button class="event-item-button">Apply</button>
+                      <button class="event-item-button" onclick="openPage()">Apply</button>
                   </div>
               </div>    
           </li>
@@ -192,7 +231,7 @@
                     <span>Start date: May 1st</span>
                     <span>Domain: Comunity</span>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quia. Adipisci nisi repudiandae facere cumque illo, nulla consequatur quasi quod. Impedit asperiores vel ducimus fuga aliquam reprehenderit alias non porro sunt libero! Culpa fuga iusto perferendis ab consequuntur exercitationem id accusantium mollitia est.</p>
-                    <button class="event-item-button">Apply</button>
+                    <button class="event-item-button" onclick="openPage()">Apply</button>
                 </div>
             </div>
                         
@@ -213,7 +252,7 @@
                     <span>Start date: April 21</span>
                     <span>Domain: Community</span>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quia. Adipisci nisi repudiandae facere cumque illo, nulla consequatur quasi quod. Impedit asperiores vel ducimus fuga aliquam reprehenderit alias non porro sunt libero! Culpa fuga iusto perferendis ab consequuntur exercitationem id accusantium mollitia est.</p>
-                    <button class="event-item-button">Apply</button>
+                    <button class="event-item-button" onclick="openPage()">Apply</button>
                 </div>
             </div>
                         
@@ -234,7 +273,7 @@
                     <span>Start date: July 17</span>
                     <span>Domain: Social</span>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quia. Adipisci nisi repudiandae facere cumque illo, nulla consequatur quasi quod. Impedit asperiores vel ducimus fuga aliquam reprehenderit alias non porro sunt libero! Culpa fuga iusto perferendis ab consequuntur exercitationem id accusantium mollitia est.</p>
-                    <button class="event-item-button">Apply</button>
+                    <button class="event-item-button" onclick="openPage()">Apply</button>
                 </div>
             </div>
           </li>
