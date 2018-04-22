@@ -23,11 +23,17 @@ function international() {
 
 
 // open new page on click 'apply' buttons
-let applyBtn = document.querySelectorAll('.event-item-button');
 
-applyBtn.forEach(item => addEventListener('click', function(){
+function openPage() {
     window.open('tobecontinued.html', '_blank');
-    })
-)
+};
 
+//     let applyBtn = document.querySelectorAll('.event-item-button');
+//     console.log(applyBtn);
+
+//     applyBtn.forEach(item => addEventListener('click', function(){
+//         console.log(item);
+//         window.open('tobecontinued.html', '_blank');
+//         })
+//     );
 
